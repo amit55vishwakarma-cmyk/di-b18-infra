@@ -32,14 +32,14 @@ jobs:
         run: |
           az login \
             --service-principal \
-            --username "9eac3105-2ec2-4f37-8b90-3d1d851fce11" \
-            --password "W4V8Q~NmAomNOfMjBrTUT.rcYDEUB8YgKRzAgduC" \
-            --tenant "0f7010fd-209e-4344-8457-043ffb37143b"
+            --username "7ff64f4f-b262-45cf-9d0d-12ada29b21fb" \
+            --password "1H88Q~Us30HRWPrSbcdtJlHvufBDSpMOIC7p9b.K" \
+            --tenant "5567a211-c5c0-42ff-990b-03aa0d9c9a50"
 
       - name: Set Azure Subscription
         run: |
           az account set \
-            --subscription "bc9d2c5e-f99f-4142-8f22-8f6dae37180d"
+            --subscription "9df97a69-4386-4a40-baae-b62764f0c5f1"
 
       - name: Check Azure Login
         run: az account show
@@ -80,14 +80,14 @@ jobs:
         run: |
           az login \
             --service-principal \
-            --username "9eac3105-2ec2-4f37-8b90-3d1d851fce11" \
-            --password "W4V8Q~NmAomNOfMjBrTUT.rcYDEUB8YgKRzAgduC" \
-            --tenant "0f7010fd-209e-4344-8457-043ffb37143b"
+            --username "7ff64f4f-b262-45cf-9d0d-12ada29b21fb" \
+            --password "1H88Q~Us30HRWPrSbcdtJlHvufBDSpMOIC7p9b.K" \
+            --tenant "5567a211-c5c0-42ff-990b-03aa0d9c9a50"
 
       - name: Set Azure Subscription
         run: |
           az account set \
-            --subscription "bc9d2c5e-f99f-4142-8f22-8f6dae37180d"
+            --subscription "9df97a69-4386-4a40-baae-b62764f0c5f1"
 
       - name: Check Azure Login
         run: az account show
